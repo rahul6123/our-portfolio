@@ -1,4 +1,23 @@
-# React + Vite
+# Our Portfolio
+
+A modern portfolio website built with React + Vite showcasing web development skills and projects.
+
+## Features
+
+- Responsive design
+- Interactive typing animation
+- Resume modal viewer
+- Contact information display
+- Social media links
+
+## Tech Stack
+
+- React
+- Vite
+- Typed.js for animations
+- CSS3
+
+## Getting Started
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

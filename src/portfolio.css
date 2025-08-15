@@ -1,4 +1,4 @@
-/* Base styles – same as your current CSS */
+  /* Base styles – same as your current CSS */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -67,16 +67,33 @@ nav .togglebtn {
   z-index: 5;
   cursor: pointer;
   display: none;
+  background-color: rgba(0, 124, 237, 0.1);
+  border-radius: 5px;
+  padding: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav .togglebtn:hover {
+  background-color: rgba(0, 124, 237, 0.2);
+}
+
+nav .togglebtn:active {
+  background-color: rgba(0, 124, 237, 0.3);
 }
 
 nav .togglebtn span {
   display: block;
-  background-color: #e8edf1;
-  margin: 5px 0px;
+  background-color: #ffffff;
+  margin: 4px 0px;
   width: 100%;
   height: 3px;
-  transition: 0.3s;
-  transition-property: transform, opacity;
+  border-radius: 2px;
+  transition: 0.3s ease;
+  transition-property: transform, opacity, background-color;
+}
+
+nav .togglebtn:hover span {
+  background-color: #007ced;
 }
 
 nav .navlinks {
@@ -239,18 +256,22 @@ hr {
 
   nav .togglebtn {
     display: block;
+    position: absolute;
+    top: -50px;
+    right: 20px;
   }
 
   nav .navlinks {
     display: none;
-    position: absolute;
-    top: 90px;
-    right: 0;
     width: 100%;
     background-color: #222;
     flex-direction: column;
     align-items: center;
     padding: 20px 0;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
   }
 
   nav .navlinks li {
@@ -260,5 +281,21 @@ hr {
 
   nav .navlinks.open {
     display: flex;
+  }
+
+  /* Adjust header to accommodate the dropdown menu */
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header .logo {
+    align-self: center;
+    margin-bottom: 10px;
+  }
+
+  nav {
+    width: 100%;
+    position: relative;
   }
 }

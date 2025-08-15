@@ -7,6 +7,7 @@ import "./portfolio.css"; // Assuming your CSS is here
 const Portfolio = () => {
     const [showModal, setShowModal] = useState(false);
     const [showContactInfo, setShowContactInfo] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 
     useEffect(() => {
@@ -33,19 +34,27 @@ const Portfolio = () => {
                             <div className="logo-text">Rahul Raj</div>
                         </div>
                         <nav>
-                            <ul className="navlinks">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
+                            <div className="togglebtn" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <ul className={`navlinks ${isMenuOpen ? 'open' : ''}`}>
+                                <li><a href="#" onClick={() => setIsMenuOpen(false)}>Home</a></li>
+                                <li><a href="#" onClick={() => setIsMenuOpen(false)}>About</a></li>
                                 <li>
                                     <a
-                                        onClick={() => setShowModal(true)}
+                                        onClick={() => {
+                                            setShowModal(true);
+                                            setIsMenuOpen(false);
+                                        }}
                                         className="btn active"
                                         style={{ background: "transparent", border: "none", color: "#e5e5e5", cursor: "pointer" }}
                                     >
                                         Resume
                                     </a>
                                 </li>
-                                <li><a href="#">Contact</a></li>
+                                {/* <li><a href="#" onClick={() => setIsMenuOpen(false)}>Contact</a></li> */}
                             </ul>
                         </nav>
                     </header>
@@ -83,16 +92,6 @@ const Portfolio = () => {
                             </div>
 
 
-                            <div
-                                style={{
-                                    marginTop: "10px",
-                                    fontWeight: "bold",
-                                    fontSize: "18px",
-                                    display: showContactInfo ? "block" : "none",
-                                }}
-                            >
-                                📞 Contact Number: <span style={{ color: "#007BFF" }}>9523309570</span>
-                            </div>
 
 
                         </div>

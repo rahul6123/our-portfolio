@@ -61,9 +61,6 @@ header {
 nav .togglebtn {
   width: 35px;
   height: 35px;
-  position: absolute;
-  top: 45px;
-  right: 3%;
   z-index: 5;
   cursor: pointer;
   display: none;
@@ -256,9 +253,9 @@ hr {
 
   nav .togglebtn {
     display: block;
-    position: absolute;
-    top: -50px;
-    right: 20px;
+    position: relative;
+    top: 0;
+    right: 0;
   }
 
   nav .navlinks {
@@ -285,17 +282,18 @@ hr {
 
   /* Adjust header to accommodate the dropdown menu */
   header {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
   }
 
   header .logo {
-    align-self: center;
-    margin-bottom: 10px;
+    margin-bottom: 0;
   }
 
   nav {
-    width: 100%;
+    width: auto;
     position: relative;
   }
 }

@@ -5,7 +5,7 @@ import cv from "./images/RenderCV_EngineeringResumes_Theme (1).pdf"; // Make sur
 import "./portfolio.css"; // Assuming your CSS is here
 
 const Portfolio = () => {
-    const [showModal, setShowModal] = useState(false);
+    const [showModal, setShowModal] = useState(false);  
     const [showContactInfo, setShowContactInfo] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 

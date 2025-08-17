@@ -527,6 +527,257 @@ const Portfolio = () => {
                             </p>
                         </div>
 
+                        {/* Achievements & Certifications */}
+                        <div style={{
+                            background: "rgba(255, 215, 0, 0.1)",
+                            padding: "25px",
+                            borderRadius: "12px",
+                            border: "1px solid rgba(255, 215, 0, 0.2)",
+                            marginBottom: "30px"
+                        }}>
+                            <h3 style={{ color: "#ffd700", marginBottom: "15px", fontSize: "1.4rem" }}>
+                                🏆 Achievements & Certifications
+                            </h3>
+                            <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
+                                <div style={{ 
+                                    display: "flex", 
+                                    alignItems: "center", 
+                                    gap: "10px",
+                                    background: "rgba(255, 215, 0, 0.1)",
+                                    padding: "10px 15px",
+                                    borderRadius: "8px",
+                                    border: "1px solid rgba(255, 215, 0, 0.2)"
+                                }}>
+                                    <span style={{ fontSize: "1.2rem" }}>🎓</span>
+                                    <span style={{ color: "#e5e5e5", fontSize: "1rem" }}>MCA Graduate - Advanced Programming</span>
+                                </div>
+                                <div style={{ 
+                                    display: "flex", 
+                                    alignItems: "center", 
+                                    gap: "10px",
+                                    background: "rgba(255, 215, 0, 0.1)",
+                                    padding: "10px 15px",
+                                    borderRadius: "8px",
+                                    border: "1px solid rgba(255, 215, 0, 0.2)"
+                                }}>
+                                    <span style={{ fontSize: "1.2rem" }}>💻</span>
+                                    <span style={{ color: "#e5e5e5", fontSize: "1rem" }}>JavaScript ES6+ & React Proficiency</span>
+                                </div>
+                                <div style={{ 
+                                    display: "flex", 
+                                    alignItems: "center", 
+                                    gap: "10px",
+                                    background: "rgba(255, 215, 0, 0.1)",
+                                    padding: "10px 15px",
+                                    borderRadius: "8px",
+                                    border: "1px solid rgba(255, 215, 0, 0.2)"
+                                }}>
+                                    <span style={{ fontSize: "1.2rem" }}>🌟</span>
+                                    <span style={{ color: "#e5e5e5", fontSize: "1rem" }}>Full-Stack Development Experience</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Experience & Projects */}
+                        <div style={{
+                            background: "rgba(50, 205, 50, 0.1)",
+                            padding: "25px",
+                            borderRadius: "12px",
+                            border: "1px solid rgba(50, 205, 50, 0.2)",
+                            marginBottom: "30px"
+                        }}>
+                            <h3 style={{ color: "#32cd32", marginBottom: "15px", fontSize: "1.4rem" }}>
+                                💼 Experience & Projects
+                            </h3>
+                            <div style={{ display: "flex", flexDirection: "column", gap: "15px" }}>
+                                <div style={{
+                                    background: "rgba(50, 205, 50, 0.1)",
+                                    padding: "15px",
+                                    borderRadius: "10px",
+                                    border: "1px solid rgba(50, 205, 50, 0.2)"
+                                }}>
+                                    <h4 style={{ color: "#e5e5e5", fontSize: "1.1rem", marginBottom: "8px", fontWeight: "600" }}>
+                                        Interactive Portfolio Website
+                                    </h4>
+                                    <p style={{ color: "#b8b8b8", fontSize: "0.9rem", lineHeight: "1.5" }}>
+                                        Built responsive portfolio using React, Vite, and modern CSS with interactive background animations and smooth user experience
+                                    </p>
+                                </div>
+                                <div style={{
+                                    background: "rgba(50, 205, 50, 0.1)",
+                                    padding: "15px",
+                                    borderRadius: "10px",
+                                    border: "1px solid rgba(50, 205, 50, 0.2)"
+                                }}>
+                                    <h4 style={{ color: "#e5e5e5", fontSize: "1.1rem", marginBottom: "8px", fontWeight: "600" }}>
+                                        WordPress Custom Development
+                                    </h4>
+                                    <p style={{ color: "#b8b8b8", fontSize: "0.9rem", lineHeight: "1.5" }}>
+                                        Created custom WordPress themes and plugins with responsive design and optimized performance
+                                    </p>
+                                </div>
+                                <div style={{
+                                    background: "rgba(50, 205, 50, 0.1)",
+                                    padding: "15px",
+                                    borderRadius: "10px",
+                                    border: "1px solid rgba(50, 205, 50, 0.2)"
+                                }}>
+                                    <h4 style={{ color: "#e5e5e5", fontSize: "1.1rem", marginBottom: "8px", fontWeight: "600" }}>
+                                        Database Management Projects
+                                    </h4>
+                                    <p style={{ color: "#b8b8b8", fontSize: "0.9rem", lineHeight: "1.5" }}>
+                                        Developed efficient database solutions using MySQL with optimized queries and data management
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Quick Stats */}
+                        <div style={{
+                            background: "rgba(0, 191, 255, 0.1)",
+                            padding: "25px",
+                            borderRadius: "12px",
+                            border: "1px solid rgba(0, 191, 255, 0.2)",
+                            marginBottom: "30px"
+                        }}>
+                            <h3 style={{ color: "#00bfff", marginBottom: "20px", fontSize: "1.4rem", textAlign: "center" }}>
+                                📊 Quick Stats
+                            </h3>
+                            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(140px, 1fr))", gap: "20px" }}>
+                                <div style={{ 
+                                    textAlign: "center",
+                                    background: "rgba(0, 191, 255, 0.1)",
+                                    padding: "15px",
+                                    borderRadius: "10px",
+                                    border: "1px solid rgba(0, 191, 255, 0.2)"
+                                }}>
+                                    <div style={{ color: "#00bfff", fontSize: "2.5rem", fontWeight: "bold", marginBottom: "5px" }}>8+</div>
+                                    <div style={{ color: "#e5e5e5", fontSize: "0.9rem", fontWeight: "500" }}>Projects Completed</div>
+                                </div>
+                                <div style={{ 
+                                    textAlign: "center",
+                                    background: "rgba(0, 191, 255, 0.1)",
+                                    padding: "15px",
+                                    borderRadius: "10px",
+                                    border: "1px solid rgba(0, 191, 255, 0.2)"
+                                }}>
+                                    <div style={{ color: "#00bfff", fontSize: "2.5rem", fontWeight: "bold", marginBottom: "5px" }}>2+</div>
+                                    <div style={{ color: "#e5e5e5", fontSize: "0.9rem", fontWeight: "500" }}>Years Experience</div>
+                                </div>
+                                <div style={{ 
+                                    textAlign: "center",
+                                    background: "rgba(0, 191, 255, 0.1)",
+                                    padding: "15px",
+                                    borderRadius: "10px",
+                                    border: "1px solid rgba(0, 191, 255, 0.2)"
+                                }}>
+                                    <div style={{ color: "#00bfff", fontSize: "2.5rem", fontWeight: "bold", marginBottom: "5px" }}>12+</div>
+                                    <div style={{ color: "#e5e5e5", fontSize: "0.9rem", fontWeight: "500" }}>Technologies</div>
+                                </div>
+                                <div style={{ 
+                                    textAlign: "center",
+                                    background: "rgba(0, 191, 255, 0.1)",
+                                    padding: "15px",
+                                    borderRadius: "10px",
+                                    border: "1px solid rgba(0, 191, 255, 0.2)"
+                                }}>
+                                    <div style={{ color: "#00bfff", fontSize: "2.5rem", fontWeight: "bold", marginBottom: "5px" }}>100%</div>
+                                    <div style={{ color: "#e5e5e5", fontSize: "0.9rem", fontWeight: "500" }}>Dedication</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Goals & Aspirations */}
+                        <div style={{
+                            background: "rgba(255, 69, 0, 0.1)",
+                            padding: "25px",
+                            borderRadius: "12px",
+                            border: "1px solid rgba(255, 69, 0, 0.2)",
+                            marginBottom: "30px"
+                        }}>
+                            <h3 style={{ color: "#ff4500", marginBottom: "15px", fontSize: "1.4rem" }}>
+                                🎯 Goals & Aspirations
+                            </h3>
+                            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "15px" }}>
+                                <div style={{
+                                    background: "rgba(255, 69, 0, 0.1)",
+                                    padding: "15px",
+                                    borderRadius: "10px",
+                                    border: "1px solid rgba(255, 69, 0, 0.2)",
+                                    display: "flex",
+                                    alignItems: "center",
+                                    gap: "12px"
+                                }}>
+                                    <span style={{ fontSize: "1.5rem" }}>🚀</span>
+                                    <span style={{ color: "#e5e5e5", fontSize: "1rem" }}>Master Full-Stack Development</span>
+                                </div>
+                                <div style={{
+                                    background: "rgba(255, 69, 0, 0.1)",
+                                    padding: "15px",
+                                    borderRadius: "10px",
+                                    border: "1px solid rgba(255, 69, 0, 0.2)",
+                                    display: "flex",
+                                    alignItems: "center",
+                                    gap: "12px"
+                                }}>
+                                    <span style={{ fontSize: "1.5rem" }}>⚛️</span>
+                                    <span style={{ color: "#e5e5e5", fontSize: "1rem" }}>Advanced React Patterns</span>
+                                </div>
+                                <div style={{
+                                    background: "rgba(255, 69, 0, 0.1)",
+                                    padding: "15px",
+                                    borderRadius: "10px",
+                                    border: "1px solid rgba(255, 69, 0, 0.2)",
+                                    display: "flex",
+                                    alignItems: "center",
+                                    gap: "12px"
+                                }}>
+                                    <span style={{ fontSize: "1.5rem" }}>🌐</span>
+                                    <span style={{ color: "#e5e5e5", fontSize: "1rem" }}>Contribute to Open Source</span>
+                                </div>
+                                <div style={{
+                                    background: "rgba(255, 69, 0, 0.1)",
+                                    padding: "15px",
+                                    borderRadius: "10px",
+                                    border: "1px solid rgba(255, 69, 0, 0.2)",
+                                    display: "flex",
+                                    alignItems: "center",
+                                    gap: "12px"
+                                }}>
+                                    <span style={{ fontSize: "1.5rem" }}>🏢</span>
+                                    <span style={{ color: "#e5e5e5", fontSize: "1rem" }}>Build Scalable Applications</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Personal Interests */}
+                        <div style={{
+                            background: "rgba(147, 112, 219, 0.1)",
+                            padding: "25px",
+                            borderRadius: "12px",
+                            border: "1px solid rgba(147, 112, 219, 0.2)",
+                            marginBottom: "30px"
+                        }}>
+                            <h3 style={{ color: "#9370db", marginBottom: "15px", fontSize: "1.4rem" }}>
+                                🌟 Beyond Coding
+                            </h3>
+                            <div style={{ display: "flex", flexWrap: "wrap", gap: "10px" }}>
+                                {["Problem Solving", "Tech Blogging", "Open Source", "UI/UX Design", "Photography", "Gaming", "Learning New Tech", "Code Reviews", "Team Collaboration", "Innovation"].map(interest => (
+                                    <span key={interest} style={{
+                                        background: "rgba(147, 112, 219, 0.2)",
+                                        color: "#e5e5e5",
+                                        padding: "8px 16px",
+                                        borderRadius: "20px",
+                                        fontSize: "0.9rem",
+                                        border: "1px solid rgba(147, 112, 219, 0.3)",
+                                        fontWeight: "500"
+                                    }}>
+                                        {interest}
+                                    </span>
+                                ))}
+                            </div>
+                        </div>
+
                         {/* Current Focus */}
                         <div style={{
                             background: "linear-gradient(135deg, rgba(0, 124, 237, 0.1), rgba(219, 20, 186, 0.1))",

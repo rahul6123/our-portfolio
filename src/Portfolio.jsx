@@ -321,7 +321,7 @@ const Portfolio = () => {
                             marginBottom: "30px"
                         }}>
                             <h3 style={{ color: "#8a2be2", marginBottom: "15px", fontSize: "1.4rem" }}>
-                                � Education
+                                🎓 Education
                             </h3>
                             <div style={{ display: "flex", flexDirection: "column", gap: "15px" }}>
                                 <div style={{
@@ -354,6 +354,84 @@ const Portfolio = () => {
                                     </p>
                                     <p style={{ color: "#b8b8b8", fontSize: "0.85rem", margin: "0", display: "flex", alignItems: "center", gap: "5px" }}>
                                         <span>📍</span> Bodh Gaya, Bihar
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Contact Information Section */}
+                        <div style={{
+                            background: "rgba(127, 255, 212, 0.1)",
+                            padding: "25px",
+                            borderRadius: "12px",
+                            border: "1px solid rgba(127, 255, 212, 0.2)",
+                            marginBottom: "30px"
+                        }}>
+                            <h3 style={{ color: "#7fffd4", marginBottom: "15px", fontSize: "1.4rem" }}>
+                                📞 Contact Information
+                            </h3>
+                            <div style={{ display: "flex", flexDirection: "column", gap: "15px" }}>
+                                <div style={{
+                                    background: "rgba(127, 255, 212, 0.2)",
+                                    padding: "15px",
+                                    borderRadius: "10px",
+                                    border: "1px solid rgba(127, 255, 212, 0.3)"
+                                }}>
+                                    <div style={{
+                                        display: "flex",
+                                        alignItems: "center",
+                                        gap: "10px",
+                                        marginBottom: "8px"
+                                    }}>
+                                        <span style={{ fontSize: "1.2rem" }}>📱</span>
+                                        <h4 style={{ color: "#e5e5e5", fontSize: "1.1rem", fontWeight: "600", margin: "0" }}>
+                                            Phone Number
+                                        </h4>
+                                    </div>
+                                    <p style={{ color: "#7fffd4", fontSize: "0.95rem", margin: "0", fontWeight: "500" }}>
+                                        +91 9523309570
+                                    </p>
+                                </div>
+                                <div style={{
+                                    background: "rgba(127, 255, 212, 0.2)",
+                                    padding: "15px",
+                                    borderRadius: "10px",
+                                    border: "1px solid rgba(127, 255, 212, 0.3)"
+                                }}>
+                                    <div style={{
+                                        display: "flex",
+                                        alignItems: "center",
+                                        gap: "10px",
+                                        marginBottom: "8px"
+                                    }}>
+                                        <span style={{ fontSize: "1.2rem" }}>💼</span>
+                                        <h4 style={{ color: "#e5e5e5", fontSize: "1.1rem", fontWeight: "600", margin: "0" }}>
+                                            Availability
+                                        </h4>
+                                    </div>
+                                    <p style={{ color: "#7fffd4", fontSize: "0.95rem", margin: "0", fontWeight: "500" }}>
+                                        Available for Projects
+                                    </p>
+                                </div>
+                                <div style={{
+                                    background: "rgba(127, 255, 212, 0.2)",
+                                    padding: "15px",
+                                    borderRadius: "10px",
+                                    border: "1px solid rgba(127, 255, 212, 0.3)"
+                                }}>
+                                    <div style={{
+                                        display: "flex",
+                                        alignItems: "center",
+                                        gap: "10px",
+                                        marginBottom: "8px"
+                                    }}>
+                                        <span style={{ fontSize: "1.2rem" }}>📧</span>
+                                        <h4 style={{ color: "#e5e5e5", fontSize: "1.1rem", fontWeight: "600", margin: "0" }}>
+                                            Email
+                                        </h4>
+                                    </div>
+                                    <p style={{ color: "#7fffd4", fontSize: "0.95rem", margin: "0", fontWeight: "500" }}>
+                                        rk6123025@gmail.com
                                     </p>
                                 </div>
                             </div>
@@ -443,45 +521,7 @@ const Portfolio = () => {
                                 </div>
                             </div>
 
-                            {/* Contact Information */}
-                            <div style={{
-                                background: "rgba(127, 255, 212, 0.1)",
-                                padding: "25px",
-                                borderRadius: "12px",
-                                border: "1px solid rgba(127, 255, 212, 0.2)"
-                            }}>
-                                <h3 style={{ color: "#7fffd4", marginBottom: "15px", fontSize: "1.4rem" }}>
-                                    📞 Contact Information
-                                </h3>
-                                <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
-                                    <div style={{
-                                        background: "rgba(127, 255, 212, 0.2)",
-                                        color: "#e5e5e5",
-                                        padding: "10px 15px",
-                                        borderRadius: "8px",
-                                        border: "1px solid rgba(127, 255, 212, 0.3)",
-                                        display: "flex",
-                                        alignItems: "center",
-                                        gap: "10px"
-                                    }}>
-                                        <span style={{ fontSize: "1.2rem" }}>📱</span>
-                                        <span style={{ fontSize: "1rem", fontWeight: "500" }}>+91 9523309570</span>
-                                    </div>
-                                    <div style={{
-                                        background: "rgba(127, 255, 212, 0.2)",
-                                        color: "#e5e5e5",
-                                        padding: "10px 15px",
-                                        borderRadius: "8px",
-                                        border: "1px solid rgba(127, 255, 212, 0.3)",
-                                        display: "flex",
-                                        alignItems: "center",
-                                        gap: "10px"
-                                    }}>
-                                        <span style={{ fontSize: "1.2rem" }}>💼</span>
-                                        <span style={{ fontSize: "1rem", fontWeight: "500" }}>Available for Projects</span>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
 
                         {/* About Description */}
@@ -578,59 +618,7 @@ const Portfolio = () => {
                             </div>
                         </div>
 
-                        {/* Experience & Projects */}
-                        <div style={{
-                            background: "rgba(50, 205, 50, 0.1)",
-                            padding: "25px",
-                            borderRadius: "12px",
-                            border: "1px solid rgba(50, 205, 50, 0.2)",
-                            marginBottom: "30px"
-                        }}>
-                            <h3 style={{ color: "#32cd32", marginBottom: "15px", fontSize: "1.4rem" }}>
-                                💼 Experience & Projects
-                            </h3>
-                            <div style={{ display: "flex", flexDirection: "column", gap: "15px" }}>
-                                <div style={{
-                                    background: "rgba(50, 205, 50, 0.1)",
-                                    padding: "15px",
-                                    borderRadius: "10px",
-                                    border: "1px solid rgba(50, 205, 50, 0.2)"
-                                }}>
-                                    <h4 style={{ color: "#e5e5e5", fontSize: "1.1rem", marginBottom: "8px", fontWeight: "600" }}>
-                                        Interactive Portfolio Website
-                                    </h4>
-                                    <p style={{ color: "#b8b8b8", fontSize: "0.9rem", lineHeight: "1.5" }}>
-                                        Built responsive portfolio using React, Vite, and modern CSS with interactive background animations and smooth user experience
-                                    </p>
-                                </div>
-                                <div style={{
-                                    background: "rgba(50, 205, 50, 0.1)",
-                                    padding: "15px",
-                                    borderRadius: "10px",
-                                    border: "1px solid rgba(50, 205, 50, 0.2)"
-                                }}>
-                                    <h4 style={{ color: "#e5e5e5", fontSize: "1.1rem", marginBottom: "8px", fontWeight: "600" }}>
-                                        WordPress Custom Development
-                                    </h4>
-                                    <p style={{ color: "#b8b8b8", fontSize: "0.9rem", lineHeight: "1.5" }}>
-                                        Created custom WordPress themes and plugins with responsive design and optimized performance
-                                    </p>
-                                </div>
-                                <div style={{
-                                    background: "rgba(50, 205, 50, 0.1)",
-                                    padding: "15px",
-                                    borderRadius: "10px",
-                                    border: "1px solid rgba(50, 205, 50, 0.2)"
-                                }}>
-                                    <h4 style={{ color: "#e5e5e5", fontSize: "1.1rem", marginBottom: "8px", fontWeight: "600" }}>
-                                        Database Management Projects
-                                    </h4>
-                                    <p style={{ color: "#b8b8b8", fontSize: "0.9rem", lineHeight: "1.5" }}>
-                                        Developed efficient database solutions using MySQL with optimized queries and data management
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+
 
                         {/* Quick Stats */}
                         <div style={{
@@ -654,16 +642,7 @@ const Portfolio = () => {
                                     <div style={{ color: "#00bfff", fontSize: "2.5rem", fontWeight: "bold", marginBottom: "5px" }}>8+</div>
                                     <div style={{ color: "#e5e5e5", fontSize: "0.9rem", fontWeight: "500" }}>Projects Completed</div>
                                 </div>
-                                <div style={{ 
-                                    textAlign: "center",
-                                    background: "rgba(0, 191, 255, 0.1)",
-                                    padding: "15px",
-                                    borderRadius: "10px",
-                                    border: "1px solid rgba(0, 191, 255, 0.2)"
-                                }}>
-                                    <div style={{ color: "#00bfff", fontSize: "2.5rem", fontWeight: "bold", marginBottom: "5px" }}>2+</div>
-                                    <div style={{ color: "#e5e5e5", fontSize: "0.9rem", fontWeight: "500" }}>Years Experience</div>
-                                </div>
+
                                 <div style={{ 
                                     textAlign: "center",
                                     background: "rgba(0, 191, 255, 0.1)",

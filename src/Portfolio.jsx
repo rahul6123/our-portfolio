@@ -8,6 +8,7 @@ const Portfolio = () => {
     const [showModal, setShowModal] = useState(false);  
     const [showContactInfo, setShowContactInfo] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isProjectsOpen, setIsProjectsOpen] = useState(false);
 
 
     useEffect(() => {
@@ -18,6 +19,18 @@ const Portfolio = () => {
             loop: true,
         });
         return () => typed.destroy();
+    }, []);
+
+    // Close dropdown when clicking outside
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (!event.target.closest('.projects-dropdown')) {
+                setIsProjectsOpen(false);
+            }
+        };
+
+        document.addEventListener('click', handleClickOutside);
+        return () => document.removeEventListener('click', handleClickOutside);
     }, []);
 
     const showContact = () => {
@@ -42,6 +55,31 @@ const Portfolio = () => {
                             <ul className={`navlinks ${isMenuOpen ? 'open' : ''}`}>
                                 <li><a href="#" onClick={() => setIsMenuOpen(false)}>Home</a></li>
                                 <li><a href="#" onClick={() => setIsMenuOpen(false)}>About</a></li>
+                                <li className="projects-dropdown">
+                                    <a 
+                                        href="#" 
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                            setIsProjectsOpen(!isProjectsOpen);
+                                        }}
+                                        style={{ color: "#e5e5e5", cursor: "pointer" }}
+                                    >
+                                        Projects ▼
+                                    </a>
+                                    {isProjectsOpen && (
+                                        <div className="dropdown-menu">
+                                            <a href="https://github.com/rahul6123/our-portfolio" target="_blank" rel="noopener noreferrer">
+                                                Portfolio Website
+                                            </a>
+                                            <a href="https://github.com/rahul6123" target="_blank" rel="noopener noreferrer">
+                                                View All Projects
+                                            </a>
+                                            <a href="https://github.com/rahul6123?tab=repositories" target="_blank" rel="noopener noreferrer">
+                                                GitHub Repositories
+                                            </a>
+                                        </div>
+                                    )}
+                                </li>
                                 <li>
                                     <a
                                         onClick={() => {
